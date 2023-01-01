@@ -1,6 +1,6 @@
 import mysql from 'mysql';
 
-export const db = mysql.createConnection({
+export const db = mysql.createPool({
     host:"sql6.freesqldatabase.com",
     user:'sql6587120',
     password:'Gwh5QVbHm5',
