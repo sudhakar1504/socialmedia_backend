@@ -117,7 +117,7 @@ if(data.length){
             id:data[i].id,
             title:data[i].title,
             desc:data[i].description,
-            url:"http://localhost:8800/images/"+ data[i].url,
+            url:"https://social-media-be.onrender.com/images/"+ data[i].url,
             date:data[i].date_created,
             is_edit:tokendata.id == data[i].user_id ? true:false
         })
